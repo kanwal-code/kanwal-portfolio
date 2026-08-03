@@ -1,0 +1,27 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Colors */
+  --bg: #080014;
+  --card-bg: rgba(255, 255, 255, 0.05);
+
+  --purple: #7B2CFF;
+  --blue: #2D8CFF;
+  --gold: #FFD700;
+
+  --white: #FFFFFF;
+  --gray: #A7A7B5;
+
+  /* Layout */
+  --container-width: 1200px;
+
+  /* Radius */
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+
+  /* Transition */
+  --transition: 0.3s ease;
+}
