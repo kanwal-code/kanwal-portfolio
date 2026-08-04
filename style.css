@@ -152,9 +152,9 @@ ul {
 .hero-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   gap: 50px;
-  min-height: 85vh;
+  padding-top: 50px;
 }
 
 .hero-content {
@@ -230,12 +230,14 @@ ul {
   background: rgba(255,255,255,0.03);
 }
 
+
 .hero-visual {
   flex: 1;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 80px;
 }
-
 
 
 .nav-btn:hover,
@@ -1049,8 +1051,8 @@ ul {
 }
 .hero-card {
 
-  width: 420px;
-  height: 420px;
+  width: 360px;
+  height: 360px;
 
   padding: 35px;
 
