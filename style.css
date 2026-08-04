@@ -236,60 +236,7 @@ ul {
   justify-content: center;
 }
 
-.hero-card {
-  
-  width: 420px;
-  height: 420px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  position: relative;
-
-  font-size: 220px;
-  font-weight: 800;
-
-  border-radius: 50px;
-
-  color: white;
-
- background:
-linear-gradient(
-135deg,
-rgba(123,44,255,0.08),
-rgba(45,140,255,0.05)
-);
-
-  border: 3px solid rgba(180,120,255,0.8);
-
- box-shadow:
-0 0 40px rgba(123,44,255,0.6),
-0 0 100px rgba(123,44,255,0.45),
-0 0 180px rgba(45,140,255,0.35);
-  backdrop-filter: blur(10px);
-
-}
-.hero-card {
-  animation: floatCard 5s ease-in-out infinite;
-}
-
-.hero-k {
-    font-size: 240px; 
-  background: linear-gradient(
-    180deg,
-    #ffffff,
-    #b06cff,
-    #5d8dff
-  );
-
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  text-shadow:
-    0 0 20px rgba(123,44,255,0.5),
-    0 0 50px rgba(45,140,255,0.35);
-}
 
 .nav-btn:hover,
 .primary-btn:hover {
@@ -1098,5 +1045,92 @@ rgba(45,140,255,0.05)
 
 .stat span{
   color:var(--gray);
+  font-size:14px;
+}
+.hero-card {
+
+  width: 420px;
+  height: 420px;
+
+  padding: 35px;
+
+  border-radius: 35px;
+
+  background:
+  linear-gradient(
+    135deg,
+    rgba(123,44,255,0.15),
+    rgba(45,140,255,0.08)
+  );
+
+  border: 1px solid rgba(255,255,255,0.15);
+
+  box-shadow:
+  0 0 50px rgba(123,44,255,0.35);
+
+  backdrop-filter: blur(15px);
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+}
+.hero-card {
+  animation: floatCard 5s ease-in-out infinite;
+}
+.dashboard-top{
+  display:flex;
+  justify-content:space-between;
+  color:white;
+  font-size:18px;
+  margin-bottom:40px;
+}
+
+.status{
+  color:var(--gold);
+}
+
+
+.dashboard-stats{
+  display:flex;
+  gap:30px;
+  margin-bottom:40px;
+}
+
+.dashboard-stats h3{
+  font-size:38px;
+  margin:0;
+
+  background:linear-gradient(
+  135deg,
+  var(--purple),
+  var(--blue)
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+
+.dashboard-stats p{
+  color:var(--gray);
+}
+
+
+.dashboard-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+
+.dashboard-tags span{
+  padding:8px 16px;
+  border-radius:20px;
+
+  background:rgba(255,255,255,0.08);
+
+  color:white;
   font-size:14px;
 }
