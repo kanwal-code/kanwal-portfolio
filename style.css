@@ -173,10 +173,11 @@ ul {
 }
 
 .hero h1{
-  font-size:110px;
-  line-height:0.95;
+  font-size: 78px;
+  line-height: 1.05;
+  max-width: 700px;
+  margin-bottom: 20px;
 }
-
 
 .hero h2 {
   font-size: 30px;
@@ -1065,4 +1066,28 @@ rgba(45,140,255,0.05)
 
 }
 
+}
+.hero-stats{
+  display:flex;
+  gap:40px;
+  margin-top:40px;
+}
+
+.stat h3{
+  font-size:32px;
+  margin-bottom:5px;
+
+  background: linear-gradient(
+    135deg,
+    var(--purple),
+    var(--blue)
+  );
+
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.stat span{
+  color:var(--gray);
+  font-size:14px;
 }
