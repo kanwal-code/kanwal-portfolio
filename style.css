@@ -587,6 +587,28 @@ ul {
   line-height:1.6;
 }
 
+/* Hero Button Hover Effects */
+
+.hero-buttons a {
+  transition: 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.primary-btn:hover {
+  transform: translateY(-3px);
+  box-shadow:
+  0 10px 30px rgba(123,44,255,0.5);
+}
+
+
+.secondary-btn:hover {
+  transform: translateY(-3px);
+  border-color: var(--purple);
+  background: rgba(123,44,255,0.12);
+}
+
 /* About Section */
 
 .about {
