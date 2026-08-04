@@ -1142,7 +1142,7 @@ ul {
 .hero-card{
   margin-top:0 !important;
    position: relative;
-  overflow: hidden;
+  overflow:visible;
 }
 .hero-card::before {
 
@@ -1150,8 +1150,8 @@ content:"";
 
 position:absolute;
 
-width:220px;
-height:220px;
+width:400px;
+height:400px;
 
 background:rgba(123,44,255,0.35);
 
