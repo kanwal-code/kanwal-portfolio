@@ -232,13 +232,12 @@ ul {
 
 
 .hero-visual {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:flex-start;
+  padding-top:20px;
 }
-
 
 .nav-btn:hover,
 .primary-btn:hover {
@@ -1057,28 +1056,20 @@ ul {
   padding: 35px;
 
   border-radius: 35px;
-
   background:
   linear-gradient(
     135deg,
     rgba(123,44,255,0.15),
     rgba(45,140,255,0.08)
   );
-
+  
   border: 1px solid rgba(255,255,255,0.15);
-
   box-shadow:
   0 0 50px rgba(123,44,255,0.35);
-
   backdrop-filter: blur(15px);
-
   display:flex;
   flex-direction:column;
   justify-content:center;
-}
-
-}
-.hero-card {
   animation: floatCard 5s ease-in-out infinite;
 }
 .dashboard-top{
