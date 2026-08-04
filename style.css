@@ -1127,3 +1127,18 @@ ul {
   color:white;
   font-size:14px;
 }
+.hero-container{
+  display:flex !important;
+  flex-direction:row !important;
+  align-items:center !important;
+}
+
+.hero-visual{
+  position:absolute;
+  right:80px;
+  top:180px;
+}
+
+.hero-card{
+  margin-top:0 !important;
+}
