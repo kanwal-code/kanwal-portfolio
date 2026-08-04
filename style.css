@@ -232,11 +232,10 @@ ul {
 
 
 .hero-visual {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-80px);
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 .nav-btn:hover,
