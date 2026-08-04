@@ -172,12 +172,22 @@ ul {
   margin-bottom: 20px;
 }
 
-.hero h1{
-  font-size: 54px;
-  line-height: 1.1;
-  max-width: 650px;
+.hero h1 {
+  font-size: 64px;
+  line-height: 1.05;
+  max-width: 600px;
   margin-bottom: 20px;
-} 
+
+  background: linear-gradient(
+    135deg,
+    #FFFFFF,
+    #B06CFF,
+    #5D8DFF
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .hero h2 {
   font-size: 30px;
   margin-bottom: 20px;
