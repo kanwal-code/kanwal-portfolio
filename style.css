@@ -1786,3 +1786,218 @@ ul {
   color:var(--gray);
   font-size:14px;
 }
+
+
+/* =====================
+   WHY CHOOSE ME
+===================== */
+
+
+.why-me {
+
+  padding:120px 0;
+
+}
+
+
+
+.why-me .section-title span {
+
+  color:#7B2CFF;
+
+}
+
+
+
+
+.why-grid {
+
+  display:grid;
+
+  grid-template-columns:repeat(4,1fr);
+
+  gap:25px;
+
+}
+
+
+
+
+.why-card {
+
+  position:relative;
+
+  overflow:hidden;
+
+
+  padding:35px 25px;
+
+
+  border-radius:28px;
+
+
+  text-align:center;
+
+
+  background:
+  linear-gradient(
+  145deg,
+  rgba(123,44,255,0.12),
+  rgba(255,255,255,0.04)
+  );
+
+
+  border:1px solid rgba(123,44,255,0.3);
+
+
+  backdrop-filter:blur(15px);
+
+
+  transition:0.4s ease;
+
+}
+
+
+
+
+.why-card::before {
+
+
+  content:"";
+
+
+  position:absolute;
+
+
+  width:150px;
+
+  height:150px;
+
+
+  top:-60px;
+
+  right:-60px;
+
+
+  background:#7B2CFF;
+
+
+  filter:blur(80px);
+
+
+  opacity:0;
+
+
+  transition:0.4s;
+
+
+}
+
+
+
+
+.why-card:hover {
+
+
+  transform:translateY(-10px);
+
+
+  border-color:#7B2CFF;
+
+
+  box-shadow:
+
+  0 0 35px rgba(123,44,255,0.35);
+
+
+}
+
+
+
+
+.why-card:hover::before {
+
+  opacity:0.5;
+
+}
+
+
+
+
+
+.why-icon {
+
+
+  width:75px;
+
+  height:75px;
+
+
+  display:flex;
+
+
+  align-items:center;
+
+  justify-content:center;
+
+
+  margin:0 auto 25px;
+
+
+  border-radius:22px;
+
+
+  font-size:38px;
+
+
+  background:
+
+  linear-gradient(
+  135deg,
+  rgba(123,44,255,0.35),
+  rgba(45,140,255,0.25)
+  );
+
+}
+
+
+
+
+
+.why-card h3 {
+
+
+  font-size:22px;
+
+
+  margin-bottom:15px;
+
+
+  position:relative;
+
+
+  z-index:2;
+
+
+}
+
+
+
+
+
+.why-card p {
+
+
+  color:var(--gray);
+
+
+  line-height:1.7;
+
+
+  position:relative;
+
+
+  z-index:2;
+
+
+}
